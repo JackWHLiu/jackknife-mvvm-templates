@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="4"
+    name="MVVM Fragment"
+    description="Creates a mvvm fragment that is compatible back to API level 14."
+    minApi="14"
+    minBuildApi="14">
+
+    <category value="Fragment" />
+    <formfactor value="Mobile" />
+
+    <parameter
+        id="fragmentClass"
+        name="Fragment Name"
+        type="string"
+        constraints="class|nonempty|unique"
+        default="BlankFragment"
+        help="The name of the fragment class to create" />
+
+    <parameter
+        id="fragmentName"
+        name="Fragment Layout Name"
+        type="string"
+        constraints="layout|nonempty|unique"
+        default="fragment_blank"
+        suggest="${fragmentToLayout(fragmentClass)}"
+        help="The name of the layout to create" />
+
+    <thumbs>
+        <thumb>template_blank_fragment.png</thumb>
+    </thumbs>
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
