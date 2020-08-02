@@ -1,0 +1,2 @@
+# jackknife-mvvm-templates
+此模板用来创建JackKnife风格的Activity和Fragment，支持Java和Kotlin
