@@ -9,9 +9,10 @@ import com.lwh.jackknife.BaseFragment
 
 class ${fragmentClass} : BaseFragment<>() {
 
-override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                          savedInstanceState: Bundle?): View? {
-    return inflater.inflate(R.layout.${fragmentName}, container, false)
+override fun getLayoutId(): Int {
+<#if generateLayout>
+    return R.layout.${fragmentName}
+</#if>
 }
 
 override fun initData(savedInstanceState: Bundle?) {

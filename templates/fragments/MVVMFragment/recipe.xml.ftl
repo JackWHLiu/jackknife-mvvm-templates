@@ -2,7 +2,7 @@
 <#import "root://activities/common/kotlin_macros.ftl" as kt>
 <recipe>
     <@kt.addAllKotlinDependencies />
-    <dependency mavenUrl="com.github.JackWHLiu.jackknife:jackknife-mvvm:4.10.0"/>
+    <dependency mavenUrl="com.github.JackWHLiu.jackknife:jackknife-mvvm:4.10.1"/>
 
     <instantiate from="root/res/layout/fragment_mvvm.xml"
                    to="${escapeXmlAttribute(resOut)}/layout/${escapeXmlAttribute(fragmentName)}.xml" />
