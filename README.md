@@ -3,7 +3,7 @@
 
 
 
-请依赖jackknife-mvvm的版本为4.10.1，为使用此版本可能需要改动些许代码
+请依赖jackknife-mvvm的版本为4.10.1，未使用此版本可能需要改动些许代码
 
 ```
 implementation 'com.github.JackWHLiu.jackknife:jackknife-mvvm:4.10.1'
