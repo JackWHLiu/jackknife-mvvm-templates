@@ -1,4 +1,4 @@
-# jackknife-mvvm-templates
+# Android Studio开发模板（https://github.com/JackWHLiu/jackknife）
 此模板用来创建JackKnife风格的Activity和Fragment，支持Java和Kotlin
 
 
