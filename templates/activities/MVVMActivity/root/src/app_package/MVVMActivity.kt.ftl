@@ -10,6 +10,7 @@ override fun getLayoutId(): Int {
     return R.layout.${layoutName}
 </#if>
 }
+
 override fun initData(savedInstanceState: Bundle?) {
 
 }
